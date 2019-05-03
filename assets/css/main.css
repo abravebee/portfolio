@@ -2641,8 +2641,13 @@ input, select, textarea {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 0.8em;
-		}
+            font-size: 0.8em;
+            background-color:#11242d;
+        }
+        
+        .button.back:hover{
+            background-color: #a8b0b3;
+        }
 
 		input[type="submit"].large,
 		input[type="reset"].large,
